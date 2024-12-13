@@ -1,0 +1,176 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.header h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+.header .bi-bell {
+    font-size: 1.5rem;
+    color: #ffc107;
+    cursor: pointer;
+}
+
+/* Saldo Geral */
+.card-body {
+    padding: 15px;
+}
+
+.card-body h6 {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #b3b3b3;
+    margin: 0;
+}
+
+.card-body p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.card-body i {
+    font-size: 1.2rem;
+    color: #ffc107;
+    cursor: pointer;
+}
+
+/* Minhas Contas */
+.list-group {
+    margin: 0;
+    padding: 0;
+}
+
+.list-group-item {
+    font-size: 0.95rem;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    border: none;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item span {
+    flex-grow: 1;
+    color: #b3b3b3;
+}
+
+.list-group-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+button {
+    font-size: 0.95rem;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: transparent;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+button:hover {
+    background-color: #ffc107;
+    color: #000;
+}
+
+/* Meus Cartões */
+.card.bg-secondary {
+    background-color: #2d2d2d !important;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.card.bg-secondary .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card.bg-secondary span {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}
+
+.card.bg-secondary span.fw-bold {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.btn-outline-warning {
+    border-color: #ffc107;
+    color: #ffc107;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
+
+/* Adaptação para mobile */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .list-group-item {
+        padding: 8px 12px;
+    }
+
+    button {
+        padding: 8px 15px;
+    }
+}
